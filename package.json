@@ -1,13 +1,10 @@
 {
-  "name": "github-jet-heatmap",
+  "name": "github-profile-card",
   "version": "1.0.0",
-  "description": "Generates an animated jet-over-contribution-grid SVG from real GitHub contribution data",
+  "description": "Generates the terminal profile card SVGs for the GitHub profile README",
   "type": "module",
   "engines": {
     "node": ">=18"
-  },
-  "scripts": {
-    "generate": "node generate.mjs"
   },
   "dependencies": {
     "jimp": "^1.6.1"
